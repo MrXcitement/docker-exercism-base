@@ -8,7 +8,7 @@ RUN cd /tmp \
     && tar xzf exercism-linux-64bit.tgz \
     && mv exercism /usr/local/bin/
 
-WORKDIR /workspace
+WORKDIR /root/exercism
 
 ENTRYPOINT ["bash"]
 CMD ["--login"]
